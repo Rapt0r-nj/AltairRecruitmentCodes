@@ -1,5 +1,5 @@
 ## README
-**Each folder has a *src* folder inside, which should be places directly under the *catkin_workspace directory*.**
+**Each folder has a *src* folder inside, which should be placed directly under the *catkin_workspace directory*.**
 ```
 catkin_workspace
 |____build
