@@ -1,0 +1,13 @@
+<launch>
+  <node
+    pkg="zero"
+    type="nodezero.py"
+    name="node_pub"
+  />
+  <node
+    pkg="zero"
+    type="nodeone.py"
+    name="node_sub"
+    output="screen"
+  />
+ </launch>
