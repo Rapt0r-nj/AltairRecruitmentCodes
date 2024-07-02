@@ -1,0 +1,17 @@
+<launch>
+
+  <node
+    pkg="zero"
+    type="nodezero.py"
+    name="streamer"
+    output="screen"
+  />
+
+  <node
+    pkg="zero"
+    type="nodeone.py"
+    name="viewer"
+    output="screen"
+  />
+
+ </launch>
