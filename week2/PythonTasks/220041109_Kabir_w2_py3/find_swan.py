@@ -2,7 +2,7 @@ from ultralytics import YOLOv10
 import cv2
 import supervision as sv
 
-model = YOLOv10('/content/drive/MyDrive/weights.pt')
+model = YOLOv10('./weights.pt')
 
 def detect_swan(image_path, output_path):
     image = cv2.imread(image_path)
